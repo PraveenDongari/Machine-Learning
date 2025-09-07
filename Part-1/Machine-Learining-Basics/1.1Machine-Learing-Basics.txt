@@ -1,0 +1,36 @@
+==> Artificial intelligence is a branch of computer science that is concerned with building smart and intelligent machines.
+
+==> Machine Learing is a technique to implement AI that can learn from the data by themselves without being explicitly programmed.
+
+==> Deep Learning is a subfield of machine learning that uses Artificial Neural Networks to learn from the data.
+
+======== Types of Machine Learning========
+
+==> Machine Learing is a technique to implement AI that can learn from the data by themselves without being explicitly programmed.
+
+1)supervised Learing : The Machine Learning algorithm learns from Labelled Data.
+2)unsupervised Learning : The Machine Learning algorithm learns from Un-Labelled Data.
+3)Reinforcement Learning : It is an area of Machine Learing concerned with how intelligent agents take actions in an environment to maximizze it's rewards.
+
+Eg:Environment,Agent,Action and rewards.
+
+
+======Types of Supervised Learning==========
+
+==> supervised Learing : The Machine Learning algorithm learns from Labelled Data.
+
+1)Classification :it is about predicting a class or discrete values.Eg:Male or Female;True or False.
+    Algorithm : Decision tree clasification,Random Forest Classification ,k-nearest Nighbour.
+2)Regression : It is about  Predicting a quantity or continuous values.Eg:Salary;age;price.
+    Algorithm : Logistic Regression,Polynomial Regression and support vector Machines.
+
+
+===========Types of Un-Supervised Learning ===============
+
+==> unsupervised Learning : The Machine Learning algorithm learns from Un-Labelled Data.
+
+Algorithms : K-means clustering,Hierarchical clustering,principal component Analysis,Apriori,Eclat.
+
+1)Clustering : It is an unsupervised task which involves grouping the similar data points.
+2)Association : It is an unsupervised task that is used to find important relationship between data points. Eg: Netflix
+
