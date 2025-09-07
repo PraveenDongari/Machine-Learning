@@ -1,4 +1,4 @@
-# Numpy-Numeric Python .Very Fast than other data types
+# Numpy-Numeric Python .Very Fast than other data types.All elements in a array must be of same type.
 
 '''
 Advantages of Numpy Arrays :
@@ -183,3 +183,91 @@ print(a.shape)
 b=a.reshape(3,2)
 print(b)
 print(b.shape)
+
+
+
+# Common functions
+
+print(np.mean(b)) # mean
+print(np.sum(b))
+print(np.min(b))
+print(np.max(b))
+print(np.std(b)) # standard deviation
+
+
+# Linear Algebra
+
+
+A=np.array([[1,2],[3,4]])
+B=np.array([[5,6],[6,7]])
+
+print(np.dot(A,B)) # Matrix multiplication
+print(np.linalg.inv(A)) # Inverse
+print(np.linalg.det(A)) # Determinant
+print(np.linalg.eig(A)) # Eigen-Values and Eigen-vectors
+
+
+# Accessing Elements
+
+
+arr=np.array([[10,20,30],[40,50,60],[70,80,90]])
+
+# single element
+print(arr[0,1]) #20 (row 0,col1)
+
+# whole row
+print(arr[1]) #[40,50,60] row1
+print(arr[:,2]) # [30,60,,90] col2
+
+# slicing
+print(arr[0:2,1:3]) # [[20,30],[50,60]] (sub-array first 2 rows,cols 1-2).
+
+
+
+# Inserting Element
+
+
+a=np.array([1,2,3,4])
+print(a)
+new_a=np.insert(a,2,99) # insert 99 at index 2
+print(new_a)
+
+b=np.array([[1,2],[3,4]])
+
+# insert column
+new_b=np.insert(b,1,[9,9] ,axis=1)
+print(new_b)
+#[[1,9,2]
+# [3,9,4]]
+
+# insert row
+new_b2=np.insert(b,1,[7,7], axis=0)
+print(new_b2)
+#[[1,2]
+# [7,7]
+#[3,4]]
+
+
+
+#Deleting Elements
+
+
+a=np.array([1,2,3,4,5])
+new_a=np.delete(a,2) # delete index 2
+print(new_a)
+
+b=np.array([[1,2,3],[4,5,6],[7,8,9]])
+
+#delete row
+print(np.delete(b,1,axis=0))
+
+#[[1,2,3]
+# [7,8,9]]
+
+
+# delete column
+print(np.delete(b,0,axis=1))
+
+#[[2,3]
+# [5,6]
+# [8,9]]
